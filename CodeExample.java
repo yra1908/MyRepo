@@ -25,7 +25,7 @@ import java.util.Set;
  * @version     $Revision: 1 $, $Date: 2015/07/03 22:34:36 $ 
  */
 
-public abstract class DerivedClass extends ParentClass
+public abstract class CodeExample extends ParentClass
 	implements AlphaInterface, BetaInterface, GammaInterface {
 	// class implementation comments go here…
 	
@@ -44,7 +44,7 @@ public abstract class DerivedClass extends ParentClass
 	/**
 	* Constructor documentation comments go here…
 	*/
-	public DerivedClass(const String aName) {
+	public CodeExample(const String aName) {
 		
 		super();
 		
