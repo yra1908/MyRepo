@@ -63,84 +63,84 @@ public abstract class DerivedClass extends ParentClass
 	}
 	
 	/**
-       * Method documentation comments go here…
-       */
-       public String getName() {
-	        // method implementation comments go here…
+	* Method documentation comments go here…
+	*/
+	public String getName() {
+		// method implementation comments go here…
 	    	
-	    	for (i=0; i<anArray.length; i++) {	// for loop example...
-	    	    …
-	    	    if (anArray[i] == z)
-	    	    {
-	    	        break;  					// special comment
-	    	    }
-	    	    …
-    		}
-    	
-	    	while (condition) {					// while example...
-	    	    statements;
-	    	}
-	    	
-	    	do {								// do while example...
-	    	   statements;
-	    	}
-	    	while (condition);
-	    	    	
-	    	if ((x < 5) || (x>2)) {				// if statement example...	
-	    	    finalValue = -1;
-	    	}
-	    	else if (y == 15) {
-	    	    finalValue = 10;
-	    	}
-	    	else {
-	    	    finalValue = 0;
-	    	}
-	    	
-	    	switch (variable) {					// switch example...
-	    	    case ABC:
-	    	        statements;
-	    	        // XXX falls through
-	    	    case DEF:
-	    	        statements;
-	    	        break;
-	    	    case XYZ:
-	    	        statements;
-	    	        break;
-	    	    default:
-	    	        statements;
-	    	        break;
-	    	}
-	    	
-	    	try (Scanner in = new Scanner (file);  // try catch example..
-				PrintWriter out = new PrintWriter(file2);) {					
-				String s = in.nextLine();
-				System.out.println(s); 
-				out.println(s);
-			} catch (Exception e) {
-				System.out.println(e.getMessage());
+		for (i=0; i<anArray.length; i++) {			// for loop example...
+			…
+			if (anArray[i] == z) {
+				break;  					// special comment
 			}
+	    	    …
+		}
+    	
+		while (condition) {					// while example...
+			statements;
+		}
+	    	
+		do {								// do while example...
+			 statements;
+		}
+		while (condition);
+	    	    	
+		if ((x < 5) || (x>2)) {					// if statement example...	
+			finalValue = -1;
+		}
+		else if (y == 15) {
+			finalValue = 10;
+		}
+		else {
+			finalValue = 0;
+		}
+	    	
+		switch (variable) {					// switch example...
+			case ABC:
+				statements;
+				// XXX falls through
+			 case DEF:
+				statements;
+				break;
+			case XYZ:
+		    	        statements;
+		    	        break;
+			default:
+				statements;
+				break;
+		}
+	    	
+		try (Scanner in = new Scanner (file);  	// try catch example..
+			PrintWriter out = new PrintWriter(file2);) {
+					
+			String s = in.nextLine();
+			System.out.println(s); 
+			out.println(s);
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
 	    	
 		return this.fName;        
 	}
     
-	 private static staticMethod() {
+	private static staticMethod() {
 		// do smth
 	}
 	    
 	    
 	private class InnerClass {
-	    	// class implementation comments go here…
+		// class implementation comments go here…
 	    	
-	    	public int level2; 
-	    	public int level3;     	
-	    	private Object fRef = null;
+		public int level2; 
+		public int level3;     	
+		private Object fRef = null;
 	    	
-	        /**
-	         * Constructor documentation comments go here…
-	         */
-	        public InnerClass() {
-	            …
-	        } 
+		/**
+		* Constructor documentation comments go here…
+		*/
+		public InnerClass() {
+			…
+		} 
 	        
 	} // InnerClass
     
