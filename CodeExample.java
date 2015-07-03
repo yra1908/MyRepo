@@ -1,5 +1,6 @@
-package java.convention.CodeExample;
+package java.convention.codeexample;
 
+import javaconvention.codeexample.DerivedClass;
 import edu.stedwards.psi.PsiException;
 import edu.stedwards.theta.ParentClass;
 import edu.stedwards.theta.AlphaInterface;
@@ -25,7 +26,7 @@ import java.util.Set;
  * @version     $Revision: 1 $, $Date: 2015/07/03 22:34:36 $ 
  */
 
-public abstract class CodeExample extends ParentClass
+public abstract class DerivedClass extends ParentClass
 	implements AlphaInterface, BetaInterface, GammaInterface {
 	// class implementation comments go here…
 	
@@ -44,7 +45,7 @@ public abstract class CodeExample extends ParentClass
 	/**
 	* Constructor documentation comments go here…
 	*/
-	public CodeExample(const String aName) {
+	public DerivedClass(const String aName) {
 		
 		super();
 		
