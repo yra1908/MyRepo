@@ -1,4 +1,4 @@
-package javaconvention.codexample;%
+package javaconvention.codexample;
 
 import edu.stedwards.psi.PsiException;
 import edu.stedwards.theta.ParentClass;
