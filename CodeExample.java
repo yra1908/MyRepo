@@ -80,7 +80,7 @@ public abstract class DerivedClass extends ParentClass
 			statements;
 		}
 	    	
-		do {								// do while example...
+		do {							// do while example...
 			 statements;
 		}
 		while (condition);
